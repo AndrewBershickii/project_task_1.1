@@ -8,7 +8,6 @@ from airflow.configuration import conf
 from airflow.models import Variable
 import time
 
-
 PATH = Variable.get("my_path")
 conf.set("core", "template_searchpath", PATH)
 
@@ -70,8 +69,7 @@ def insert_data(table_name, encoding='utf-8', delimiter=';', dtype=None, parse_d
 
     end_time = datetime.now()
     duration = end_time - start_time
-    message = f"""Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
-        duration.total_seconds()} секунд"""
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {duration.total_seconds()} секунд"
     log_to_db(start_time, end_time, duration, table_name, message)
 
 
