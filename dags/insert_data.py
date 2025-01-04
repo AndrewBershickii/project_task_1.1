@@ -8,11 +8,14 @@ from airflow.configuration import conf
 from airflow.models import Variable
 import time
 
+
+# Получаем путь к файлам из переменной Airflow
 PATH = Variable.get("my_path")
 conf.set("core", "template_searchpath", PATH)
 
 
 def log_to_db(start_time, end_time, duration, table_name, message):
+    "Функция для записи логов в базу данных"
     postgres_hook = PostgresHook("postgres_db")
     engine = postgres_hook.get_sqlalchemy_engine()
 
@@ -27,14 +30,15 @@ def log_to_db(start_time, end_time, duration, table_name, message):
 
 
 def insert_data(table_name, encoding='utf-8', delimiter=';', dtype=None, parse_dates=None, dayfirst=False):
+    "Функция для загрузки данных из CSV в базу данных"
     start_time = datetime.now()
-    time.sleep(5)
+    time.sleep(5)   # Пауза 5 секунд 
 
     df = pandas.read_csv(PATH + f"{table_name}.csv", delimiter=delimiter,
                          encoding=encoding, dtype=dtype, parse_dates=parse_dates, dayfirst=dayfirst)
     df.columns = df.columns.str.lower()
     df = df.drop_duplicates()
-    df = df.where(pandas.notnull(df), None)
+    df = df.where(pandas.notnull(df), None) # Замена NaN на None для записи NULL-значений в БД
 
     postgres_hook = PostgresHook("postgres_db")
     engine = postgres_hook.get_sqlalchemy_engine()

@@ -1,0 +1,15 @@
+[2025-01-04T15:32:13.462+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: insert_data.md_currency_d manual__2025-01-04T15:21:18.190378+00:00 [queued]>
+[2025-01-04T15:32:13.473+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: insert_data.md_currency_d manual__2025-01-04T15:21:18.190378+00:00 [queued]>
+[2025-01-04T15:32:13.474+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 3
+[2025-01-04T15:32:13.491+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): md_currency_d> on 2025-01-04 15:21:18.190378+00:00
+[2025-01-04T15:32:13.499+0000] {standard_task_runner.py:60} INFO - Started process 188 to run task
+[2025-01-04T15:32:13.503+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'insert_data', 'md_currency_d', 'manual__2025-01-04T15:21:18.190378+00:00', '--job-id', '1876', '--raw', '--subdir', 'DAGS_FOLDER/insert_data.py', '--cfg-path', '/tmp/tmpi5qs0hfp']
+[2025-01-04T15:32:13.507+0000] {standard_task_runner.py:88} INFO - Job 1876: Subtask md_currency_d
+[2025-01-04T15:32:13.759+0000] {task_command.py:423} INFO - Running <TaskInstance: insert_data.md_currency_d manual__2025-01-04T15:21:18.190378+00:00 [running]> on host 00bb408c4f3b
+[2025-01-04T15:32:13.834+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='abershits' AIRFLOW_CTX_DAG_ID='insert_data' AIRFLOW_CTX_TASK_ID='md_currency_d' AIRFLOW_CTX_EXECUTION_DATE='2025-01-04T15:21:18.190378+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-04T15:21:18.190378+00:00'
+[2025-01-04T15:32:18.773+0000] {base.py:83} INFO - Using connection ID 'postgres_db' for task execution.
+[2025-01-04T15:32:18.864+0000] {base.py:83} INFO - Using connection ID 'postgres_db' for task execution.
+[2025-01-04T15:32:18.884+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-01-04T15:32:18.897+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=insert_data, task_id=md_currency_d, execution_date=20250104T152118, start_date=20250104T153213, end_date=20250104T153218
+[2025-01-04T15:32:18.948+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-01-04T15:32:18.972+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
