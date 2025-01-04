@@ -1,0 +1,30 @@
+[2025-01-04T13:40:10.307+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: insert_data.md_currency_d manual__2025-01-04T13:40:08.646674+00:00 [queued]>
+[2025-01-04T13:40:10.316+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: insert_data.md_currency_d manual__2025-01-04T13:40:08.646674+00:00 [queued]>
+[2025-01-04T13:40:10.316+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2025-01-04T13:40:10.330+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): md_currency_d> on 2025-01-04 13:40:08.646674+00:00
+[2025-01-04T13:40:10.336+0000] {standard_task_runner.py:60} INFO - Started process 432 to run task
+[2025-01-04T13:40:10.340+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'insert_data', 'md_currency_d', 'manual__2025-01-04T13:40:08.646674+00:00', '--job-id', '1790', '--raw', '--subdir', 'DAGS_FOLDER/insert_data.py', '--cfg-path', '/tmp/tmpky4k9yi3']
+[2025-01-04T13:40:10.343+0000] {standard_task_runner.py:88} INFO - Job 1790: Subtask md_currency_d
+[2025-01-04T13:40:10.557+0000] {task_command.py:423} INFO - Running <TaskInstance: insert_data.md_currency_d manual__2025-01-04T13:40:08.646674+00:00 [running]> on host 8e43a3616b86
+[2025-01-04T13:40:10.641+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='abershits' AIRFLOW_CTX_DAG_ID='insert_data' AIRFLOW_CTX_TASK_ID='md_currency_d' AIRFLOW_CTX_EXECUTION_DATE='2025-01-04T13:40:08.646674+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-04T13:40:08.646674+00:00'
+[2025-01-04T13:40:15.513+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/insert_data.py", line 36, in insert_data
+    df['currency_code'] = df['currency_code'].fillna(None).astype(int).astype(str)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/series.py", line 5145, in fillna
+    return super().fillna(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 6859, in fillna
+    value, method = validate_fillna_kwargs(value, method)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_validators.py", line 288, in validate_fillna_kwargs
+    raise ValueError("Must specify a fill 'value' or 'method'.")
+ValueError: Must specify a fill 'value' or 'method'.
+[2025-01-04T13:40:15.527+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=insert_data, task_id=md_currency_d, execution_date=20250104T134008, start_date=20250104T134010, end_date=20250104T134015
+[2025-01-04T13:40:15.579+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1790 for task md_currency_d (Must specify a fill 'value' or 'method'.; 432)
+[2025-01-04T13:40:15.623+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-01-04T13:40:15.646+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
