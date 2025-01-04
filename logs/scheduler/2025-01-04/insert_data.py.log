@@ -1337,3 +1337,555 @@ Traceback (most recent call last):
 SyntaxError: EOL while scanning string literal
 [2025-01-04T15:04:23.997+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
 [2025-01-04T15:04:24.020+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.037 seconds
+[2025-01-04T15:04:54.177+0000] {processor.py:161} INFO - Started process (PID=955) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:04:54.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:04:54.182+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:04:54.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:04:54.187+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:04:54.187+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:04:54.188+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:04:54.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.039 seconds
+[2025-01-04T15:05:24.370+0000] {processor.py:161} INFO - Started process (PID=962) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:05:24.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:05:24.372+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:05:24.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:05:24.377+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:05:24.377+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:05:24.378+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:05:24.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.037 seconds
+[2025-01-04T15:05:54.554+0000] {processor.py:161} INFO - Started process (PID=969) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:05:54.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:05:54.557+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:05:54.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:05:54.563+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:05:54.562+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:05:54.563+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:05:54.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.038 seconds
+[2025-01-04T15:06:24.751+0000] {processor.py:161} INFO - Started process (PID=976) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:06:24.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:06:24.754+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:06:24.753+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:06:24.759+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:06:24.759+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:06:24.760+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:06:24.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.038 seconds
+[2025-01-04T15:06:54.929+0000] {processor.py:161} INFO - Started process (PID=983) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:06:54.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:06:54.933+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:06:54.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:06:54.939+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:06:54.938+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:06:54.939+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:06:54.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.034 seconds
+[2025-01-04T15:07:25.126+0000] {processor.py:161} INFO - Started process (PID=990) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:07:25.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:07:25.129+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:07:25.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:07:25.134+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:07:25.133+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:07:25.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:07:25.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.036 seconds
+[2025-01-04T15:07:55.308+0000] {processor.py:161} INFO - Started process (PID=997) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:07:55.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:07:55.311+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:07:55.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:07:55.315+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:07:55.315+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:07:55.316+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:07:55.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.034 seconds
+[2025-01-04T15:08:25.494+0000] {processor.py:161} INFO - Started process (PID=1004) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:08:25.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:08:25.496+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:08:25.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:08:25.501+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:08:25.500+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:08:25.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:08:25.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.034 seconds
+[2025-01-04T15:08:55.672+0000] {processor.py:161} INFO - Started process (PID=1011) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:08:55.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:08:55.675+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:08:55.675+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:08:55.680+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:08:55.679+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:08:55.681+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:08:55.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.034 seconds
+[2025-01-04T15:09:25.866+0000] {processor.py:161} INFO - Started process (PID=1018) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:09:25.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:09:25.868+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:09:25.868+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:09:25.873+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:09:25.873+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:09:25.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:09:25.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.034 seconds
+[2025-01-04T15:09:56.031+0000] {processor.py:161} INFO - Started process (PID=1025) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:09:56.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:09:56.035+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:09:56.034+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:09:56.041+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:09:56.040+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:09:56.042+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:09:56.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.036 seconds
+[2025-01-04T15:10:26.212+0000] {processor.py:161} INFO - Started process (PID=1032) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:10:26.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:10:26.216+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:10:26.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:10:26.221+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:10:26.221+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:10:26.222+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:10:26.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.036 seconds
+[2025-01-04T15:10:56.382+0000] {processor.py:161} INFO - Started process (PID=1039) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:10:56.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:10:56.384+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:10:56.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:10:56.392+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:10:56.391+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:10:56.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:10:56.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.041 seconds
+[2025-01-04T15:11:26.574+0000] {processor.py:161} INFO - Started process (PID=1046) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:11:26.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:11:26.577+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:11:26.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:11:26.581+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:11:26.581+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:11:26.582+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:11:26.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.036 seconds
+[2025-01-04T15:11:56.747+0000] {processor.py:161} INFO - Started process (PID=1053) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:11:56.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:11:56.750+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:11:56.750+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:11:56.756+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:11:56.755+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:11:56.757+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:11:56.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.035 seconds
+[2025-01-04T15:12:26.967+0000] {processor.py:161} INFO - Started process (PID=1060) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:12:26.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:12:26.973+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:12:26.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:12:26.978+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:12:26.978+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:12:26.980+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:12:27.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.052 seconds
+[2025-01-04T15:12:57.193+0000] {processor.py:161} INFO - Started process (PID=1067) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:12:57.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:12:57.197+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:12:57.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:12:57.210+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:12:57.207+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:12:57.212+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:12:57.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.068 seconds
+[2025-01-04T15:13:27.447+0000] {processor.py:161} INFO - Started process (PID=1074) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:13:27.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:13:27.450+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:13:27.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:13:27.457+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:13:27.456+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:13:27.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:13:27.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.051 seconds
+[2025-01-04T15:13:57.636+0000] {processor.py:161} INFO - Started process (PID=1081) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:13:57.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:13:57.640+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:13:57.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:13:57.646+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:13:57.645+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:13:57.646+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:13:57.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.037 seconds
+[2025-01-04T15:14:27.851+0000] {processor.py:161} INFO - Started process (PID=1088) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:14:27.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:14:27.855+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:14:27.854+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:14:27.860+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:14:27.859+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:14:27.861+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:14:27.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.037 seconds
+[2025-01-04T15:14:58.026+0000] {processor.py:161} INFO - Started process (PID=1095) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:14:58.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:14:58.030+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:14:58.029+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:14:58.035+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:14:58.034+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:14:58.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:14:58.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.032 seconds
+[2025-01-04T15:15:28.212+0000] {processor.py:161} INFO - Started process (PID=1102) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:15:28.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:15:28.214+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:15:28.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:15:28.220+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:15:28.219+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:15:28.220+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:15:28.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.033 seconds
+[2025-01-04T15:15:58.390+0000] {processor.py:161} INFO - Started process (PID=1109) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:15:58.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:15:58.393+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:15:58.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:15:58.398+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:15:58.397+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:15:58.399+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:15:58.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.034 seconds
+[2025-01-04T15:16:19.510+0000] {processor.py:161} INFO - Started process (PID=1116) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:16:19.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:16:19.514+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:16:19.513+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:16:19.521+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:16:19.520+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:16:19.522+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:16:19.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.038 seconds
+[2025-01-04T15:16:49.697+0000] {processor.py:161} INFO - Started process (PID=1123) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:16:49.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:16:49.699+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:16:49.699+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:16:49.705+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:16:49.704+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:16:49.705+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:16:49.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.031 seconds
+[2025-01-04T15:16:56.749+0000] {processor.py:161} INFO - Started process (PID=1124) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:16:56.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:16:56.752+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:16:56.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:16:56.757+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:16:56.757+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: /
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:16:56.758+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:16:56.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.036 seconds
+[2025-01-04T15:17:26.945+0000] {processor.py:161} INFO - Started process (PID=1131) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:17:26.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:17:26.948+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:17:26.948+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:17:26.954+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:17:26.953+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: /
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:17:26.955+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:17:26.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.034 seconds
+[2025-01-04T15:17:35.002+0000] {processor.py:161} INFO - Started process (PID=1138) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:17:35.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:17:35.005+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:17:35.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:17:35.011+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:17:35.010+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:17:35.013+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:17:35.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.048 seconds
+[2025-01-04T15:18:05.194+0000] {processor.py:161} INFO - Started process (PID=1145) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:18:05.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:18:05.198+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:18:05.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:18:05.204+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:18:05.202+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:18:05.204+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:18:05.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.034 seconds
+[2025-01-04T15:18:35.366+0000] {processor.py:161} INFO - Started process (PID=1152) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:18:35.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:18:35.369+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:18:35.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:18:35.376+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:18:35.375+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:18:35.377+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:18:35.404+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.041 seconds
+[2025-01-04T15:19:05.564+0000] {processor.py:161} INFO - Started process (PID=1159) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:19:05.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:19:05.567+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:19:05.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:19:05.572+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:19:05.571+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:19:05.573+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:19:05.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.035 seconds
+[2025-01-04T15:19:35.752+0000] {processor.py:161} INFO - Started process (PID=1166) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:19:35.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:19:35.756+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:19:35.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:19:35.764+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:19:35.762+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 73
+    message = f"Загружено {len(df)} строк в таблицу {table_name}. Длительность: {
+                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2025-01-04T15:19:35.766+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:19:35.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.052 seconds
+[2025-01-04T15:19:48.892+0000] {processor.py:161} INFO - Started process (PID=1167) to work on /opt/airflow/dags/insert_data.py
+[2025-01-04T15:19:48.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-04T15:19:48.895+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:19:48.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:19:49.391+0000] {processor.py:840} INFO - DAG(s) 'insert_data' retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-04T15:19:49.486+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:19:49.485+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-04T15:19:49.499+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:19:49.499+0000] {dag.py:3058} INFO - Creating ORM DAG for insert_data
+[2025-01-04T15:19:49.512+0000] {logging_mixin.py:188} INFO - [2025-01-04T15:19:49.512+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_data to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-04T15:19:49.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.652 seconds
