@@ -2868,3 +2868,31 @@
 [2025-01-09T09:33:05.027+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:33:05.026+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-01-09T09:33:05.048+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:33:05.048+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_data to 2025-01-10 00:00:00+00:00, run_after=2025-01-11 00:00:00+00:00
 [2025-01-09T09:33:05.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.526 seconds
+[2025-01-09T09:33:35.239+0000] {processor.py:161} INFO - Started process (PID=3370) to work on /opt/airflow/dags/insert_data.py
+[2025-01-09T09:33:35.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-09T09:33:35.244+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:33:35.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-09T09:33:35.626+0000] {processor.py:840} INFO - DAG(s) 'insert_data' retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-09T09:33:35.715+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:33:35.714+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-09T09:33:35.735+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:33:35.735+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_data to 2025-01-10 00:00:00+00:00, run_after=2025-01-11 00:00:00+00:00
+[2025-01-09T09:33:35.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.523 seconds
+[2025-01-09T09:34:05.890+0000] {processor.py:161} INFO - Started process (PID=3378) to work on /opt/airflow/dags/insert_data.py
+[2025-01-09T09:34:05.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-09T09:34:05.894+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:34:05.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-09T09:34:06.290+0000] {processor.py:840} INFO - DAG(s) 'insert_data' retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-09T09:34:06.374+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:34:06.374+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-09T09:34:06.394+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:34:06.394+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_data to 2025-01-10 00:00:00+00:00, run_after=2025-01-11 00:00:00+00:00
+[2025-01-09T09:34:06.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.528 seconds
+[2025-01-09T09:34:36.591+0000] {processor.py:161} INFO - Started process (PID=3386) to work on /opt/airflow/dags/insert_data.py
+[2025-01-09T09:34:36.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-09T09:34:36.596+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:34:36.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-09T09:34:36.994+0000] {processor.py:840} INFO - DAG(s) 'insert_data' retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-09T09:34:37.086+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:34:37.086+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-09T09:34:37.106+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:34:37.106+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_data to 2025-01-10 00:00:00+00:00, run_after=2025-01-11 00:00:00+00:00
+[2025-01-09T09:34:37.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.542 seconds
+[2025-01-09T09:35:07.211+0000] {processor.py:161} INFO - Started process (PID=3394) to work on /opt/airflow/dags/insert_data.py
+[2025-01-09T09:35:07.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2025-01-09T09:35:07.215+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:35:07.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2025-01-09T09:35:07.598+0000] {processor.py:840} INFO - DAG(s) 'insert_data' retrieved from /opt/airflow/dags/insert_data.py
+[2025-01-09T09:35:07.680+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:35:07.679+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-09T09:35:07.700+0000] {logging_mixin.py:188} INFO - [2025-01-09T09:35:07.700+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_data to 2025-01-10 00:00:00+00:00, run_after=2025-01-11 00:00:00+00:00
+[2025-01-09T09:35:07.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/insert_data.py took 0.512 seconds
