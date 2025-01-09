@@ -87,6 +87,8 @@ CREATE TABLE IF NOT EXISTS ds.md_ledger_account_s(
     CONSTRAINT pk_ledger_account_start_date PRIMARY KEY(ledger_account, start_date)
 );
 
+
+-- таблица оборотов
 CREATE TABLE IF NOT EXISTS dm.dm_account_turnover_f(
     on_date DATE,
     account_rk INT,
@@ -96,6 +98,19 @@ CREATE TABLE IF NOT EXISTS dm.dm_account_turnover_f(
     debet_amount_rub NUMERIC
 );
 
+-- таблица остатоков
+CREATE TABLE IF NOT EXISTS dm.dm_account_balance_f as
+SELECT on_date,
+	   account_rk,
+	   currency_rk,
+	   balance_out,
+	   (balance_out * coalesce(reduced_cource, 1)) AS balance_out_rub
+  FROM ds.ft_balance_f fbf 
+  	   LEFT JOIN ds.md_exchange_rate_d USING(currency_rk)
+ WHERE on_date BETWEEN data_actual_date AND data_actual_end_date
+    OR data_actual_date IS NULL;
+
+-- таблица 101 формы
 CREATE TABLE IF NOT EXISTS dm.dm_f101_round_f(
     from_date DATE,
     to_date DATE,
