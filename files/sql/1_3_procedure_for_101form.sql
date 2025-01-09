@@ -108,4 +108,23 @@ END;
 $$;
 
 
--- call dm.fill_f101_round_f('2018-02-01');
+-- Заполняем форму 101 за январь 2018 года
+--CALL DM.FILL_F101_ROUND_F('2018-02-01');
+
+-- Проверяем содержимое 101 формы
+--SELECT * FROM dm.dm_f101_round_f dfrfv;
+
+-- Проверяем после импорта таблицы в задании 1.4
+-- SELECT * FROM dm.dm_f101_round_f_v2 dfrfv ;
+
+-- Проверка логов
+--SELECT * FROM logs.data_load_logs dll;
+
+/*DELETE FROM logs.data_load_logs dll
+ WHERE message LIKE '%экспортир%'
+    OR message LIKE '%18 строк%'
+	OR message LIKE 'Загрузка данных%'
+	OR message LIKE 'Расчет%';*/
+
+
+

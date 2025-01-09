@@ -145,3 +145,11 @@ BEGIN
         var_date := var_date + INTERVAL '1 day';
     END LOOP;
 END $$;
+
+/*SELECT * FROM dm.dm_account_turnover_f
+ORDER BY account_rk, on_date;
+
+SELECT * FROM dm.dm_account_balance_f
+ORDER BY account_rk, on_date;
+
+SELECT * FROM logs.data_load_logs;
